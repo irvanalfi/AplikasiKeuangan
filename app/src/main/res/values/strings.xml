@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AplikasiKeuangan</string>
+    <string name="logo_description">Aplikasi Keuangan</string>
+    <string name="username_placeholder">Username</string>
+    <string name="password_placeholder">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="pt_buku_kas_nusantara">PT. Buku Kas Nusantara</string>
+    <string name="nim_edt">NIM</string>
+    <string name="fullname_register_text">Nama Lengkap</string>
+    <string name="register_btn">Register</string>
+    <string name="pengeluaran">Pengeluaran</string>
+    <string name="detailflow">Detail Flow</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="pemasukan">Pemasukan</string>
+    <string name="rangkuman">Rangkuman Bulan Ini</string>
+    <string name="jdl_pengeluaran">Pengeluaran:</string>
+</resources>

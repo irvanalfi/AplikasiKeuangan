@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pengeluaran">Pengeluaran</string>
+    <string name="detailflow">Detail Flow</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="pemasukan">Pemasukan</string>
+    <string name="rangkuman_bulan_ini">Rangkuman Bulan Ini</string>
+    <string name="rangkuman">Rangkuman Bulan Ini</string>
+    <string name="jdl_pengeluaran">Pengeluaran:</string>
+</resources>

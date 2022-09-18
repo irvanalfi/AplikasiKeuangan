@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="5dp"
+    android:layout_gravity="center_vertical"
+    tools:context=".ItemDetailCashFlow">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/cash_flow_information_container"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nominal_item_cash_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-black"/>
+
+            <TextView
+                android:id="@+id/keterangan_item_cash_flow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/tanggal_item_cash_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="italic"
+                android:textSize="11sp"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/detail_cash_flow_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:layout_toEndOf="@id/cash_flow_information_container"
+            android:src="@drawable/ic_left_arrow">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
